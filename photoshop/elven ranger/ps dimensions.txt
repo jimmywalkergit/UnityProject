@@ -1,0 +1,2 @@
+full body- w:25 h:50
+foot- w:12 h:6

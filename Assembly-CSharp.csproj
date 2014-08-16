@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E0AD59ED-AA7F-1AFA-0D9B-D8AF163C5AF8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Bumperscript.cs" />
+     <Compile Include="Assets\CreatePrefabOnClick.cs" />
+     <Compile Include="Assets\HomingArrow.cs" />
+     <Compile Include="Assets\Particleshooter.cs" />
+     <Compile Include="Assets\Playertracker.cs" />
+     <Compile Include="Assets\StayonCursor.cs" />
+     <Compile Include="Assets\SwordBehavior.cs" />
+     <Compile Include="Assets\TouchPlayerMovement.cs" />
+     <Compile Include="Assets\Tracker.cs" />
+     <Compile Include="Assets\WallBehavior.cs" />
+     <Compile Include="Assets\bubbleglow.cs" />
+     <Compile Include="Assets\scripts\CameraScripts\CameraFollow.cs" />
+     <Compile Include="Assets\scripts\CameraScripts\CameraScroll.cs" />
+     <Compile Include="Assets\scripts\Followcursor\Cameracursorlocator.cs" />
+     <Compile Include="Assets\scripts\Followcursor\FollowPlayerposition.cs" />
+     <Compile Include="Assets\scripts\Followcursor\KeepObjectOnCursor.cs" />
+     <Compile Include="Assets\scripts\MonsterScripts\MonsterBehavior.cs" />
+     <Compile Include="Assets\scripts\MonsterScripts\MonsterMove.cs" />
+     <Compile Include="Assets\scripts\PlayerScripts\ArrowBehavior.cs" />
+     <Compile Include="Assets\scripts\PlayerScripts\ShootProjectile.cs" />
+     <Compile Include="Assets\scripts\PlayerScripts\playermovement.cs" />
+     <Compile Include="Assets\scripts\Properties.cs" />
+     <Compile Include="Assets\scripts\SpawnMonster.cs" />
+     <Compile Include="Assets\scripts\healthbar\healthbar.cs" />
+     <Compile Include="Assets\scripts\myProperties.cs" />
+     <Compile Include="Assets\scripts\shootparticle.cs" />
+     <Compile Include="Assets\testcamerscript.cs" />
+     <Compile Include="Assets\testmove.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
